@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center; background-color: silver;
+}
+#foto { 
+    width: 100px; height:auto ;
+}
+#contenido {
+    font-size: 18px;
+}
