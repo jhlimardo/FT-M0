@@ -8,6 +8,7 @@ h1 {
      height: 600px; width: 500px; 
      background-color:lightblue;
      border: darkred solid;
+     padding: 50px;
  }
  #spanId {
      font-size: 18px;
