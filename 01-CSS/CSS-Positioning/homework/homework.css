@@ -59,12 +59,15 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /*Ejercicio 7. */
 #ejercicioSiete{
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
     }
     #elementoUno{
+        position: absolute;
+        top: 20px;
         background: rgb(255, 136, 0);
     }
     #elementoDos{
