@@ -84,10 +84,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90)
-  return true
-  else
-  return false
+  if (num < 90){
+    return true;
+  }
+  return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -97,7 +97,7 @@ function mayorQueCincuenta(num) {
   if (num > 50) {
     return true;
   }
-  return false
+  return false;
 }
 
 function obtenerResto(x, y) {
@@ -114,17 +114,17 @@ function esPar(num) {
   if ( num % 2 === 0 ) {
     return true; 
   }
-  return false
+  return false;
 }
 
   function esImpar(num) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ( num % 2 != 0 ) {
+    if ( num % 2 !== 0 ) {
       return true; 
     }
-    return false
+    return false;
   }
 
 
@@ -177,10 +177,12 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 
-  if (numero > 0) 
+  if (numero > 0) {
     return "Es positivo";
-    else if (numero < 0)
+  }
+    else if (numero < 0){
     return "Es negativo";
+    }
     else
     return false;
 }
@@ -251,8 +253,9 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1)
+  if (letra.length > 1){
   return "Dato incorrecto";
+  }
   else (letra === 'a' || letra === 'A' ||
   letra === 'e' || letra === 'E' ||
   letra === 'i' || letra === 'I' ||
