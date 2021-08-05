@@ -256,12 +256,13 @@ function esVocal(letra){
   if (letra.length > 1){
   return "Dato incorrecto";
   }
-  else (letra === 'a' || letra === 'A' ||
+  if (letra === 'a' || letra === 'A' ||
   letra === 'e' || letra === 'E' ||
   letra === 'i' || letra === 'I' ||
   letra === 'o' || letra === 'O' ||
-  letra === 'a' || letra === 'U')
+  letra === 'a' || letra === 'U'){
   return "Es vocal";
+  }
 }
 
 
