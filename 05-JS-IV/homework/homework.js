@@ -82,6 +82,8 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
+  // return objeto.hasOwnProperty(propiedad) ... otra manera
+
   if(objeto[propiedad]){
     return true;
   }
@@ -95,6 +97,7 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
+  // if (usuario.password === password) ... otra manera
   if (usuario["password"] === password) {
     return true;
   }
@@ -105,6 +108,8 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevaPassword"
   // Devuelve el objeto
   // Tu código:
+  // el console.log ayuda a ver el error
+  console.log("SOY EL USUARIO", usuario)
   usuario.password = nuevaPassword;
   return usuario;
 }
